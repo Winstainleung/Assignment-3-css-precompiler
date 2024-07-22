@@ -1,5 +1,5 @@
 {
-  "name": "assign3-css-precompiler",
+  "name": "assignment-3-css-precompiler",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,11 +8,14 @@
     "lookatit": "sass --watch src/scss: public/assets/css",
     "start": "concurrently \"npm run lookatit\" \"npm run basic\""
   },
+  "keywords": [],
   "author": "Winstain Leung",
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^8.2.2",
     "lite-server": "^2.6.1",
-    "sass": "^1.77.4"
+    "liter": "^0.1.0",
+    "sass": "^1.77.8",
+    "server": "^1.0.39"
   }
 }
